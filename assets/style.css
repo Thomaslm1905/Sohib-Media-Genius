@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background1 {
+    background-image: url('background1.png'); /* Ganti dengan path gambar latar belakang pertama */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+  }
+
+  @media (max-width: 600px) {
+    .background1 {
+        height: 50vh; /* Tinggi 30% dari viewport height untuk tampilan ponsel */
+    }
+}
+  #logo {
+    position: absolute;
+    top: 10px; /* Sesuaikan dengan jarak yang diinginkan dari atas */
+    left: 10px; /* Sesuaikan dengan jarak yang diinginkan dari kiri */
+    width: 24%;; /* Ukuran lebar yang diinginkan */
+    height: auto; /* Ini akan menjaga proporsi asli gambar */
+
+}
+@media (max-width: 600px) {
+    #logo {
+        width: 27%; /* Ukuran lebar relatif 80% terhadap lebar elemen induknya untuk tampilan ponsel */
+    }
+}
+
+.side-text {
+    position: absolute;
+    top: 70px;
+    right: 100px; /* Sesuaikan dengan jarak yang diinginkan dari kanan */
+    font-size: 18px; /* Ukuran font yang diinginkan */
+    color: rgb(0, 0, 0); /* Warna teks */
+    font-family: 'NamaFont', sans-serif; /* Ganti 'NamaFont' dengan nama font yang Anda tentukan */
+}
+  
+.side-text:nth-child(2) {
+  position: absolute;
+    top: 60px; /* Sesuaikan dengan jarak yang diinginkan dari atas */
+    right: 100px; /* Sesuaikan dengan jarak yang diinginkan dari kanan */
+    font-size: 18px; /* Ukuran font yang diinginkan */
+    color: rgb(0, 0, 0); /* Warna teks */
+    font-family: 'NamaFont', sans-serif;
+}
+
+.side-text:nth-child(3) {
+  top: 50px; /* Sesuaikan dengan jarak yang diinginkan dari atas */
+  right: 100px; /* Sesuaikan dengan jarak yang diinginkan dari kanan */
+  font-size: 18px; /* Ukuran font yang diinginkan */
+  color: rgb(0, 0, 0); /* Warna teks */
+  font-family: 'NamaFont', sans-serif;
+}
+
+.side-text:nth-child(3) {
+  top: 40px; /* Sesuaikan dengan jarak yang diinginkan dari atas */
+  right: 100px; /* Sesuaikan dengan jarak yang diinginkan dari kanan */
+  font-size: 18px; /* Ukuran font yang diinginkan */
+  color: rgb(0, 0, 0); /* Warna teks */
+  font-family: 'NamaFont', sans-serif;
+}
+
+  .background2 {
+    background-image: url('background2.png'); /* Ganti dengan path gambar latar belakang kedua */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+  }
+
+  @media (max-width: 600px) {
+    .background2 {
+        height: 50vh; /* Tinggi 30% dari viewport height untuk tampilan ponsel */
+    }
+}
+  
+  .background22 {
+    background-image: url('background22.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+  }
+  
+  @media (max-width: 600px) {
+    .background22 {
+        height: 50vh; /* Tinggi 30% dari viewport height untuk tampilan ponsel */
+    }
+}
+  
+.background3 {
+    background-image: url('background3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+  }
+  
+  @media (max-width: 600px) {
+    .background3 {
+        height: 50vh; /* Tinggi 30% dari viewport height untuk tampilan ponsel */
+    }
+}
+  
+
+.background33 {
+    background-image: url('background33.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+  }
+  
+  @media (max-width: 600px) {
+    .background33 {
+        height: 50vh; /* Tinggi 30% dari viewport height untuk tampilan ponsel */
+    }
+}
+
+.background4 {
+    background-image: url('background4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+  }
+  
+  @media (max-width: 600px) {
+    .background4 {
+        height: 50vh; /* Tinggi 30% dari viewport height untuk tampilan ponsel */
+    }
+}
+  
+
+.background44 {
+    background-image: url('background44.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sesuaikan dengan ketinggian yang diinginkan */
+  }
+  
+  @media (max-width: 600px) {
+    .background44 {
+        height: 50vh; /* Tinggi 30% dari viewport height untuk tampilan ponsel */
+    }
+}
